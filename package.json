@@ -1,0 +1,39 @@
+{
+  "name": "proyecto_plantillaejs",
+  "version": "1.0.0",
+  "description": "\"Crear una plantilla EJS con node.js\"",
+  "main": "index.js", 
+  "scripts": {
+    "start": "node index.js",
+    "debug": "DEBUG=myapp:* nodemon index.js",
+    "test": "REALIZADO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisRodM12/Plantilla-EJS.git"
+  },
+  "keywords": [
+    "EJS",
+    "node.js",
+    "plantilla"
+  ],
+  "author": "Christian Rodriguez Messa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisRodM12/Plantilla-EJS/issues"
+  },
+  "homepage": "https://github.com/ChrisRodM12/Plantilla-EJS#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "chalk": "^5.3.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  }
+}

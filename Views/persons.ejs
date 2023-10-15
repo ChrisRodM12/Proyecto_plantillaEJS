@@ -1,0 +1,10 @@
+<%- include ("cabecera", {tituloWeb: 'Personas con Edad Superior a 15 años'})%>
+<body>
+  <h1>Personas con Edad Superior a 15 años</h1>
+  <ul>
+    <% filteredPersons.forEach(person => { %>
+      <li><%= person.name %> - <%= person.birthdate %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
